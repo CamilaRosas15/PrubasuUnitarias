@@ -10,4 +10,17 @@ Nuestro programa nuestra 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz
 PRUEBAS
 -Generar un numero
 -generar fizz para el 3
-- generar fizz para multiplos de 3
+-generar fizz para multiplos de 3
+-generar buzz para el 5
+-generar buzz para multiplos de 3
+-generar fizzbuzz para el 15
+-generar fizz para el 3
+-generar fizzbuzz para multiplos de 3 y 5
+
+----------------------------------------
+
+-imprimir la secuencia (1,2,fzz,4 ..)
+
+diseno"
+-metodo generr fizzBuzz(numero)
+-metodogenerar secuencia(limite) ----- usa generar fizzbuzz

@@ -7,12 +7,19 @@ describe("FizzBuzz", () =>{
     it("generar el mismo si para cualquier numero si no sigue ninguna regla", () => {
         expect(generarFizzBuzz(2)).toEqual("2");
     });
-    it("generar fizz para el numero es 3", () => {
+    it("generar fizz para el numero 3", () => {
         expect(generarFizzBuzz(3)).toEqual("Fizz");
     });
     it("generar fizz para numeros multimplos de 3", () => {
         expect(generarFizzBuzz(6)).toEqual("Fizz");
     });
+    it("generar buzz para el numero 5", () => {
+        expect(generarFizzBuzz(5)).toEqual("Buzz");
+    });
+    /*
+    it("generar buzz para numeros multimplos de 5", () => {
+        expect(generarFizzBuzz(10)).toEqual("Buzz");
+    });*/
 });
 
 //modificar esta prueda para que genere un numero
