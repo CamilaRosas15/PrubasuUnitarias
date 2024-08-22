@@ -1,19 +1,20 @@
-//codigo de produccion
 /*
-function generarFizzBuzz()
+function generarFizzBuzz(numero)
 {
-    return "1";
+    if(numero == "3"){
+        return "Fizz"
+    }
+    else{
+        return numero+"";
+    }    
 }*/
 
 function generarFizzBuzz(numero)
 {
-    if(numero == "3")
+    if(numero === 3){
         return "Fizz"
-    else{
-        return numero+"";    
     }
-    //return numero+"";
+    return numero+"";    
 }
-
 
 export default generarFizzBuzz;
