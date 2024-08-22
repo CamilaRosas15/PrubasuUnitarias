@@ -22,8 +22,12 @@ function generarFizzBuzz(numero)
     }
     return numero+"";    
 }
-
 /*
+function generarSecuenciaHasta(){
+
+}
+
+
 primera version corresta
 function generarFizzBuzz(numero)
 {

@@ -1,4 +1,4 @@
-import generarFizzBuzz from "./fizzbuzz";
+import {generarFizzBuzz,generarSecuenciaHasta} from "./fizzbuzz";
 
 describe("FizzBuzz", () =>{
     it("generar el mismo si no sigue ninguna regla", () => {
@@ -11,7 +11,7 @@ describe("FizzBuzz", () =>{
         expect(generarFizzBuzz(3)).toEqual("Fizz");
     });
     it("generar fizz para numeros multimplos de 3", () => {
-        expect(generarFizzBuzz(6)).toEqual("Fizz");
+        expect(generarFizzBuzz(9)).toEqual("Fizz");
     });
     it("generar buzz para el numero 5", () => {
         expect(generarFizzBuzz(5)).toEqual("Buzz");
@@ -20,6 +20,9 @@ describe("FizzBuzz", () =>{
     it("generar buzz para numeros multimplos de 5", () => {
         expect(generarFizzBuzz(10)).toEqual("Buzz");
     });*/
+    it("generar buzz para numeros multimplos de 5", () => {
+        expect(generarSecuenciaHasta(4)).toEqual("1 2 Fizz 4");
+    });
 });
 
 //modificar esta prueda para que genere un numero
