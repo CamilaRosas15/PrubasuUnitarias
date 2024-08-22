@@ -10,6 +10,9 @@ describe("FizzBuzz", () =>{
     it("generar fizz para el numero es 3", () => {
         expect(generarFizzBuzz(3)).toEqual("Fizz");
     });
+    it("generar fizz para numeros multimplos de 3", () => {
+        expect(generarFizzBuzz(6)).toEqual("Fizz");
+    });
 });
 
 //modificar esta prueda para que genere un numero

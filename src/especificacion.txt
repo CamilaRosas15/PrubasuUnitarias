@@ -1,0 +1,13 @@
+Para imprimir los numeros hay ciertas reglas:
+
+Si el numero es 3 o multiplos de 3 se imprime Fizz
+Si el numero es 5 o multiplos de 5 se imprime Buzz
+Si el numero es multiplos de 3 y 5 se imprime FizzBuzz
+
+Nuestro programa nuestra 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz
+
+
+PRUEBAS
+-Generar un numero
+-generar fizz para el 3
+- generar fizz para multiplos de 3
