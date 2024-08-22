@@ -23,4 +23,4 @@ PRUEBAS
 
 diseno"
 -metodo generr fizzBuzz(numero)
--metodogenerar secuencia(limite) ----- usa generar fizzbuzz
+-metodogenerar secuencia(limite) ----- usa generar fizzbuzz ACTUALIZAR LAS DOS VERSIONESs

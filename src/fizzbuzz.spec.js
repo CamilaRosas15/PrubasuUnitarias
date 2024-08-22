@@ -16,15 +16,16 @@ describe("FizzBuzz", () =>{
     it("generar buzz para el numero 5", () => {
         expect(generarFizzBuzz(5)).toEqual("Buzz");
     });
-    /*
     it("generar buzz para numeros multimplos de 5", () => {
         expect(generarFizzBuzz(10)).toEqual("Buzz");
-    });*/
+    });
     it("generar buzz para numeros multimplos de 5", () => {
         expect(generarSecuenciaHasta(4)).toEqual("1 2 Fizz 4");
     });
 });
 
 //modificar esta prueda para que genere un numero
+//TDD y AUTOMATIZACION DE PRUEBAS != NO SON LO MISMO (definir eso claro)
 
-
+//TDD => partimos con las pruebas y luego desarrollamos 
+//no aplicas TDD si primero aplicas produccion en vez de las pruebas 

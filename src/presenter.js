@@ -1,4 +1,4 @@
-import generarFizzBuzz from "./fizzbuzz";
+import {generarFizzBuzz,generarSecuenciaHasta} from "./fizzbuzz";
 
 const numero = document.querySelector("#numero");
 const form = document.querySelector("#fizzbuzz-form");
