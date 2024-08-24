@@ -12,9 +12,8 @@ PRUEBAS
 -generar fizz para el 3
 -generar fizz para multiplos de 3
 -generar buzz para el 5
--generar buzz para multiplos de 3
+-generar buzz para multiplos de 5
 -generar fizzbuzz para el 15
--generar fizz para el 3
 -generar fizzbuzz para multiplos de 3 y 5
 
 ----------------------------------------
