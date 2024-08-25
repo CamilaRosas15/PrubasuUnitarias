@@ -9,5 +9,6 @@ form.addEventListener("submit", (event) => {
 
   const numerosUsr = Number.parseInt(numero.value);
 
-  div.innerHTML = "<p>" + generarFizzBuzz(numerosUsr) + "</p>";
+  div.innerHTML = "<p>" + "Numero: " + generarFizzBuzz(numerosUsr) + " Secuencia: " + generarSecuenciaHasta(numerosUsr) + "</p>";
+  //div.innerHTML = "<p>" + "Secuencia: " + generarSecuenciaHasta(numerosUsr) + "</p>";
 });
