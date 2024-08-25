@@ -41,10 +41,22 @@ function generarFizzBuzz(numero)
     }*/
     return numero+"";    
 }
-
+/*
 function generarSecuenciaHasta(){
     return "1 2 Fizz 4"
+}*/
+
+function generarSecuenciaHasta(numero) {
+    let resultado = "";
+    for(let i = 1; i <= numero; i++) {
+        resultado += generarFizzBuzz(i);
+        if(i < numero) {
+            resultado += " "; // Añade un espacio entre los elementos
+        }
+    }
+    return resultado;
 }
+
 
 /*
 primera version corresta
@@ -53,7 +65,7 @@ function generarFizzBuzz(numero)
     if(numero === 3){
         return "Fizz"
     }
-    return numero+"";    
+    return numero+"";     gf
 }*/
 
 export {generarFizzBuzz,generarSecuenciaHasta};
